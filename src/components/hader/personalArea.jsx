@@ -8,7 +8,7 @@ const PersonalArea = () => {
     if (!data) {
         return (
           <div>
-            <p>Loading...</p> {/* תוכל להציב כאן הודעה אחרת */}
+            <p>Loading...</p>
           </div>
         );
     }
