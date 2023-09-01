@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 
-export const API_URL = "http://localhost:3004";
+export const API_URL = "https://tame-suspenders-mite.cyclic.app";
 
 export const TOKEN_KEY = "products_token";
 
