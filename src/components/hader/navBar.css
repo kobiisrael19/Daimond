@@ -1,0 +1,15 @@
+.bg-coler {
+ background: rgb(255, 255, 255);
+ min-height: 65px;
+
+  }
+  .color{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .color:hover{
+    color: rgb(255, 215, 0);
+    
+  }
+ 

@@ -1,0 +1,19 @@
+.bg-color{
+
+height: 150px;
+}
+.Link{
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+}
+.footer-one{
+    background-color: rgb(245, 240, 234);
+    color: rgba(37, 37, 37, 0.571);
+}
+.font{
+    color: rgb(190, 145, 57);
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+  }

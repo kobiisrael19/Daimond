@@ -1,0 +1,149 @@
+.boxs1{
+    background-position: center;
+    background-size:100% 100%;
+    -webkit-box-shadow: 7px 10px 19px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 10px 19px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.75);
+ transition: 600ms;
+
+}
+.boxs1:hover{
+transform: scale(101%);
+
+  }
+
+.btn2{
+    border: 1px solid black;
+    background-color: rgb(252, 251, 251);
+    color: black;
+}
+.btn2:hover{
+    border: 1px solid black;
+    background-color: rgb(207, 157, 30);
+    color: black;
+}
+
+.btn1{
+    border: 1px solid black;
+    background-color: rgb(21, 11, 11);
+    color: rgb(255, 255, 255);
+}
+
+.btn1:hover{
+    border: 1px solid black;
+    background-color: goldenrod;
+    color: black;
+  
+}
+
+.b{
+    color:rgb(247, 231, 200);
+  
+}
+.b:hover{
+    color: goldenrod;
+
+}
+.borderBottom{
+    border-bottom: 4px solid rgb(201, 201, 201);
+}
+
+.responsive-image {
+    height: 110px; 
+    object-fit: cover;
+  }
+  .responsive-imag{
+   
+    height: 190px;
+object-fit: cover;
+  }
+
+  .borderTr{
+    border-bottom: 12px solid white;
+  }
+  .accordion-button1{
+    background-color: rgb(244, 243, 243);
+    border: none;
+  }
+
+  .bbttnn{
+  white-space: nowrap;
+  }
+
+  .linkToCity{
+    color: black;
+    text-decoration: none;
+  }
+
+  .btnPlusAndMinus{
+    height: 42px;
+ border: 1px solid rgb(216, 215, 215);
+background-color: rgb(248, 245, 245);
+  }
+  .btnPlusAndMinus:hover{
+    height: 42px;
+ border: 1px solid rgb(216, 215, 215);
+background-color: rgb(179, 179, 179);
+  }
+ 
+  .btnCounterInfo{
+    height: 42px;
+    width: 40px;
+border-top: 1px solid rgb(216, 215, 215);
+border-bottom: 1px solid rgb(216, 215, 215);
+border-left: none;
+border-right: none;
+   background-color: rgb(248, 245, 245);
+  }
+
+  .btnPlusAndMinusCart{
+    height: 36px;
+     border: 1px solid rgb(216, 215, 215);
+background-color: rgb(248, 245, 245);
+  }
+  .btnPlusAndMinusCart:hover{
+    height: 36px;
+ border: 1px solid rgb(216, 215, 215);
+background-color: rgb(179, 179, 179);
+  }
+ 
+  .btnCounterInfoCart{
+    height: 36px;
+    width: 30px;
+border-top: 1px solid rgb(216, 215, 215);
+border-bottom: 1px solid rgb(216, 215, 215);
+border-left: none;
+border-right: none;
+   background-color: rgb(248, 245, 245);
+  }
+
+  .continueShopping{
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .continueShopping:hover{
+    border: none;
+    background-color: black;
+    color: white;
+  }
+
+
+  .ShoppingBasketUpdate{
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+
+  
+
+@media (max-width: 991px) {
+  .borderEndNane{
+    border-right: none !important;
+  }
+}
+
+

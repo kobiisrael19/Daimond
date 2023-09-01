@@ -1,0 +1,41 @@
+.bgColor{
+  background-color: rgba(253, 253, 253, 0.674);
+}
+
+
+.boxsCarousel{
+  max-height: 500px;
+  object-fit: cover;
+  background-position: center;
+  
+}
+
+.boxs {
+  height: 400px;
+  border-radius: 6px;
+  background-position: center;
+  background-size:100% 100%;
+  -webkit-box-shadow: 7px 10px 19px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 10px 19px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 10px 30px -1px rgba(0, 0, 0, 0.75);
+  transition:background-size 1s;
+}.boxs:hover{
+  background-size: 120% 120%;
+}
+
+.colorText {
+    color: #000000;
+    text-shadow: #585856 2px 2px 4px;
+    
+    margin-top: 12px;
+}
+
+
+
+@media (max-width: 1200px) {
+  .boxs {
+    height: 350px;
+    box-shadow: inset;
+  }
+ 
+}

@@ -1,0 +1,46 @@
+.pricePayment{
+    white-space: nowrap;
+}
+.fsAmount{
+color: rgb(99, 97, 97);
+font-weight: 700;
+font-size: 15px;
+}
+.fsName{
+    color: rgb(144, 141, 141);
+    font-weight: 500;
+    font-size: 15px; 
+}
+.fsPrice{
+    color: rgb(144, 141, 141);
+    font-weight: 500;
+    font-size: 15px; 
+}
+
+.borderBotom{
+border-bottom: 3px solid gainsboro;
+
+}
+.fsPriceTotle{
+    color: rgb(100, 98, 98);
+    font-weight: 500;
+    
+}
+.bgForomBy{
+    background-color: rgb(249, 248, 248);
+}
+.bgTableBy{
+    background-color: rgb(249, 248, 248);
+}
+.bgColorRadio{
+    background-color: rgb(241, 240, 240);
+}
+.colertecxt{
+    color: red;
+font-size: 12px;
+}
+
+
+ .priceTotlePaypal{
+    white-space: nowrap;
+    }

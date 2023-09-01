@@ -1,0 +1,54 @@
+.containerr {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .error-container {
+    text-align: center;
+  }
+  
+  .error-code {
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .error-message {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .error-description {
+    font-size: 18px;
+  }
+
+
+
+
+
+  /* ספינר */
+
+  /* הספינר נמקם באמצע המסך בעזרת flexbox */
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* גוון רקע חלקית אפקטיבית שקורא לעיניים */
+  z-index: 9999; /* מוביל את הספינר לשכבה גבוהה כך שהוא ימוקם על גבי התוכן */
+}
+
+/* סתימת התוכן בזמן ההצגה של הספינר */
+.spinner-content {
+  visibility: hidden;
+}
+
+/* הצגת התוכן כשהספינר לא מופיע */
+.spinner:not(.loading) .spinner-content {
+  visibility: visible;
+}

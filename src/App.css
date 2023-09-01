@@ -1,0 +1,79 @@
+.btnT123{ 
+    position: fixed;
+    bottom: 2px;
+    left: 2px;
+   height: 53px;
+    border-radius: 50%;
+    z-index: 9999;
+    background-color: rgb(1, 186, 1);
+    }
+.btnT123:hover{ 
+    position: fixed;
+    bottom: 2px;
+    left: 2px;
+   height: 53px;
+    border-radius: 50%;
+    z-index: 9999;
+    background-color: rgb(1, 255, 1);
+    }
+ 
+
+    
+    .bacColor{
+        background-color: rgb(226, 226, 226);
+    }
+
+    .imgge{
+        object-fit: cover;
+    }
+
+    .btnBtn1{
+        background-color: black;
+        color: white;
+    }
+    .btnBtn1:hover{
+        background-color: goldenrod;
+        color: black;
+    }
+
+    .btnBtn2{
+        background-color: goldenrod;
+        color: black;
+    }
+    .btnBtn2:hover{
+        background-color: black;
+        color: white;
+    }
+
+    /* מדבר עם האייקון של הנגישות */
+div#NagishLiTrigger{
+   
+    /* !important - יהיה לו עדיפות 
+    גם אם יש סלקטור אחר זהה שמדבר עם מאפיין דומה */
+    right: auto !important;
+    /* בשביל לשנות צבע - הערך במעלות מ0 עד 360 */
+    filter: hue-rotate(330deg);
+    /* transform - להגדיל/להקטין באחוזים 1 שווה 100 אחוז */
+    /* translate - להזיז את המיקום לפי ציר איקס או וואי */
+    transform: scale(0.6) translate(-14px,-770px);
+    
+  }
+  
+  /* דואג שהתפריט שנפתח , ייפתח בצד ימין ולא שמאל  */
+  #NagishLiWidget {
+    left: auto !important;
+    right:5px;
+    transform: translateX(150%) !important;
+  }
+  
+  
+  #NagishLiWidget.nagishli-widget-show{
+    transform: translateX(0) !important;
+
+
+
+  }
+
+
+
+ 

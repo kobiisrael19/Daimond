@@ -1,0 +1,91 @@
+.color1{
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    font-weight: 450;
+  }
+  .color1:hover{
+    color: rgba(247, 203, 92, 0.958);
+  }
+
+  .colorLogin{
+   
+    border: 1px solid green;
+    border-radius: 50%;
+  }
+
+  .mt{
+    margin-top: 96px;
+  }
+
+  .btnOn{
+    color: goldenrod;
+    background-color: black;
+    margin-top: 8px;
+    
+    float: left;
+  }
+
+  .btnOn:hover{
+    color: rgb(0, 0, 0);
+    background-color: goldenrod;
+  }
+
+  .btnTwo{
+    color: white;
+    background-color: black;
+
+  
+  }
+
+  .btnTwo:hover{
+    color: goldenrod;
+    background-color: black;
+  }
+
+  .bbggColor{
+    background-color: rgb(245, 244, 244);
+  }
+
+  .link {
+    text-decoration: none; /* מסיר את הקו התחתי */
+    color: inherit; /* יורש את הצבע של הטקסט מהאבא (במקרה שלך - צבע של טקסט רגיל) */
+  }
+
+
+  .right-aligned-text {
+    text-align: right;
+  }
+
+
+
+
+  /* סגנון לתפריט המשתמש */
+.user-menu {
+  display: none; /* נסתיר תפריט המשתמש כבראשונה */
+  position: absolute;
+ right: 6px;
+  /* background-color: white; */
+  /* border: 1px solid #ccc; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  z-index: 100;
+}
+
+/* כאשר המשתמש מחבר, התפריט יופיע */
+.isLoggedIn .user-menu {
+  display: block;
+}
+
+.ccoolloorrBBttnnI{
+  background-color: rgb(234, 235, 234);
+}
+
+.ccoolloorrBBttnnI:hover{
+  background-color: rgb(222, 222, 222);
+}
+
+
+
+
