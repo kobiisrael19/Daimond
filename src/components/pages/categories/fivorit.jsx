@@ -7,7 +7,7 @@ import "./app.css";
 import { Badge } from "react-bootstrap";
 
 const Fivorit = () => {
-  const { favourites, removeFromfavourites, addToCart } =
+  const { favourites, removeFromfavourites, addToCart,quantity } =
     useContext(Appcontext);
 
   return (
@@ -47,9 +47,9 @@ const Fivorit = () => {
                     </div>
                   </Link>
                   <div >
-                    <button
-                      className="btn1 col-12 py-2"
-                      onClick={() => addToCart(obj)}
+                  <button
+                      className="btn1 col-12 py-2 "
+                      onClick={() => addToCart(obj,quantity)}
                     >
                       הוספה לסל
                     </button>
