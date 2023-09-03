@@ -20,13 +20,7 @@ function CarouselComp() {
             alt="..."
           />
         </div>
-        <div className="carousel-item">
-          <img
-            src="src/imgs/img2.jpg"
-            className="d-block w-100 boxsCarousel"
-            alt="..."
-          />
-        </div>
+      
       </div>
       <button
         className="carousel-control-prev"
