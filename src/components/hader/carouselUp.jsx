@@ -16,8 +16,12 @@ import Input from "./input";
 import WelcomeMessageOverlay from "./welcomeMessageOverlay"; 
 import { TOKEN_KEY } from "../../services/apiServices";
 
+
+
+
 const CarouselUp = () => {
   const [userMenuOpen, setUserMenuOpen] = useState(false);
+
   const { handleShow,isLoggedIn } = useContext(Appcontext);
   const [modalShow, setModalShow] = useState(false);
   const [isRegistered, setIsRegistered] = useState(false);
@@ -31,11 +35,12 @@ const CarouselUp = () => {
     window.location.reload();
   };
 
-
+  // פונקציה שמופעלת בהרשמה מוצלחת וסוגרת את המודל
   const handleLoginSuccess = (username) => {
     setModalShow(false);
     setIsRegistered(true);
     setUsername(username);
+
     setTimeout(() => {
       setIsRegistered(false);
       setUsername("");
@@ -43,10 +48,14 @@ const CarouselUp = () => {
     setModalShow(true)
   };
 
+
+
+
   return (
     <div
     className={`d-flex justify-content-between align-items-center ${isLoggedIn ? 'isLoggedIn' : ''}`} style={{ backgroundColor: "black", minHeight: "60px" }}
     >
+         {/* Conditionally render the welcome message overlay */}
          {isRegistered && <WelcomeMessageOverlay username={username}  />}
       
       <div>

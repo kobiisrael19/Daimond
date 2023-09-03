@@ -92,3 +92,90 @@ const Footer = () => {
 
 export default Footer;
 
+
+
+// import React, { useState } from "react";
+// import axios from "axios";
+
+// const Footer = () => {
+//   const [username, setUsername] = useState("");
+//   const [email, setEmail] = useState("");
+
+//   const handleFormSubmit = (event) => {
+//     event.preventDefault();
+
+//     const formData = new FormData();
+//     formData.append("username", username);
+//     formData.append("email", email);
+
+//     axios
+//       .post("/sendEmail", formData)
+//       .then((response) => {
+//         console.log(response.data.message); // הדפסה ללוג או מנוע פרסום תודה לשליחת המייל
+//       })
+//       .catch((error) => {
+//         console.error("שגיאה בשליחת המייל:", error);
+//       });
+//   };
+
+//   return (
+//     <div>
+//       <div className="footer-one container-fluid bg-color border border-top">
+//         <div className="bg-color container d-flex justify-content-between align-items-center">
+//           {/* ... קוד נוסף של תגית <div> וכפתורים המציגים את האייקונים והתכונות שלך ... */}
+//         </div>
+//       </div>
+//       <div style={{ backgroundColor: "black", minHeight: "400px", color: "white" }} className="container-fluid">
+//         <div className="container pt-5 text-center d-md-flex justify-content-between">
+//           <div className="">
+//             <h3 className="font p-4 ">צרו קשר</h3>
+//             <p>052-824-0230</p>
+//             <p>054-995-9443</p>
+//             <p>dymond123@gmail.com</p>
+//           </div>
+
+//           <div className="mt-5 mt-md-0 p-4">
+//             <h3 className="font">אודות האתר</h3>
+//             <p><a className="Link" href="/about">אודות</a></p>
+//             <p><a className="Link" href="/terms">תקנון ותנאי שימוש</a></p>
+//             <p><a className="Link" href="/accessibility">הצהרת נגישות</a></p>
+//           </div>
+
+//           <div className=" col-md-5 mt-5 pb-5 p-4  mt-md-0">
+//             <form onSubmit={handleFormSubmit}>
+//               <h3 className="form-signin-heading font">הצטרפו לניוזלטר</h3>
+//               <input
+//                 type="text"
+//                 value={username}
+//                 onChange={(e) => setUsername(e.target.value)}
+//                 placeholder="שם מלא"
+//               />
+//               <input
+//                 type="email"
+//                 value={email}
+//                 onChange={(e) => setEmail(e.target.value)}
+//                 placeholder="הכנס אימייל"
+//               />
+//               <label className="checkbox mt-3 float-end">
+//                 <input
+//                   type="checkbox"
+//                   value="remember-me"
+//                   name="rememberMe"
+//                 />
+//                 <span className="me-2">מאשר\ת קבלת עידכונים למייל</span>
+//               </label>
+//               <button style={{ width: "100%" }} className="btn btn-warning btn-block mt-2" type="submit">
+//                 שלח
+//               </button>
+//             </form>
+//           </div>
+//         </div>
+//       </div>
+//       <div style={{ height: "60px" }} className="container-fluid text-center">
+//         <p className="mt-4">כל הזכויות שמורות ליוסי 2023 ©</p>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Footer;

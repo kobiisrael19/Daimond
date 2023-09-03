@@ -16,6 +16,7 @@ const PagesBtns = (props) => {
       try{
         const url = props.apiUrl;
         const resp = await axios.get(url);
+        console.log(resp.data);
         setPages(resp.data.pages);
       }
       catch(err){

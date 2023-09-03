@@ -24,12 +24,15 @@ import "./modleconnection.css";
       } = useForm();
 
       const onSub = async (bodydata) => {
+        console.log(bodydata);
      
         try {
           const data = await doApiMethod(API_URL + "/users/login", "POST", bodydata);
           localStorage.setItem(TOKEN_KEY, data.token);
            setInfo(data);
+           console.log(info);
 
+          
           if (data.role === "admin") {
             nev("/admin");
             // window.location.reload();

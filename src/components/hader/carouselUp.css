@@ -47,8 +47,8 @@
   }
 
   .link {
-    text-decoration: none; 
-    color: inherit;
+    text-decoration: none; /* מסיר את הקו התחתי */
+    color: inherit; /* יורש את הצבע של הטקסט מהאבא (במקרה שלך - צבע של טקסט רגיל) */
   }
 
 
@@ -56,17 +56,24 @@
     text-align: right;
   }
 
+
+
+
+  /* סגנון לתפריט המשתמש */
 .user-menu {
-  display: none;
+  display: none; /* נסתיר תפריט המשתמש כבראשונה */
   position: absolute;
  right: 6px;
+  /* background-color: white; */
+  /* border: 1px solid #ccc; */
   list-style: none;
   padding: 0;
   margin: 0;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   z-index: 100;
 }
 
-
+/* כאשר המשתמש מחבר, התפריט יופיע */
 .isLoggedIn .user-menu {
   display: block;
 }

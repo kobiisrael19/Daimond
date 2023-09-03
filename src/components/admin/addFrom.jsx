@@ -24,6 +24,7 @@ const doApi = async() => {
 }
 
 const onSubForm = (_bodyData) => {
+  console.log(_bodyData);
   doApiPost(_bodyData)
 }
 
