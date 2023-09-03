@@ -15,7 +15,6 @@ const Bracelets = () => {
     try {
       const _url = API_URL + "/jewelry?category=bracelets";
       const data = await doApiGet(_url);
-      console.log(data);
       setChains(data);
     } catch (error) {
       console.log(error);
