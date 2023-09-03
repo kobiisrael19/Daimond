@@ -1,4 +1,5 @@
 function CarouselComp() {
+
   return (
     <div
       id="carouselExampleInterval"
